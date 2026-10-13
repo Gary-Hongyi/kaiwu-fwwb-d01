@@ -1,0 +1,1956 @@
+{
+  "schema_version": 1,
+  "organized_on": "2026-10-13",
+  "history_note": "赛后整理；中间迭代记录不完整。最终复赛源码由项目作者确认来自代码.zip。",
+  "source_archives": [
+    {
+      "path": "代码.zip",
+      "sha256": "1feddeba07a955bebf15b48df38ddd6ef4abfbc1432c8ed202181a58c7b92585"
+    },
+    {
+      "path": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "sha256": "8d4aa5105188fadf013167b3e719166eb69bb7cfc53e92d04b7ae3f2f5ddc871"
+    },
+    {
+      "path": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "sha256": "15cd6ccca9953a093516ffb804d0013fc73c3626a3c27006c144d6ced2ccf7b4"
+    }
+  ],
+  "files": [
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/README_RULES.md",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/README_RULES.md",
+      "sha256": "924fddb9b6d0f613b405d91bee6bb79d3c94ab698ebb09d26d66062763973e05",
+      "bytes": 469
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/agent.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/agent.py",
+      "sha256": "88916f2ae53d912a587f2e95d99f975b8bec1e511fc47979165393a1330cffbd",
+      "bytes": 8675
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/algorithm/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/algorithm/algorithm.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/algorithm/algorithm.py",
+      "sha256": "656d177cb174a763f3ad94ba4c3d3ac5f47d8e5bd6c77beb777caa67aab82649",
+      "bytes": 2139
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/conf/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/conf/conf.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/conf/conf.py",
+      "sha256": "941094a5270ac3cc4a6829e21c77cd830b5347d6b8b35e292bd3353763e0f1b4",
+      "bytes": 653
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/conf/monitor_builder.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/conf/monitor_builder.py",
+      "sha256": "5e55f1406578a563c03a39267c38093b39e802a7ac40cf47e0a47814ebc9ddbf",
+      "bytes": 2095
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/conf/prompt.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/conf/prompt.py",
+      "sha256": "8c57cb27180517d026a02e4cf8d9364986bf39a96dcb61f74202bf094c689b3a",
+      "bytes": 2405
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/conf/train_env_conf.toml",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/conf/train_env_conf.toml",
+      "sha256": "125dd3c16f11435c83c9cc0b85d0006a34ca06e3e65442dcfef022957b779142",
+      "bytes": 2370
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/feature/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/feature/definition.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/feature/definition.py",
+      "sha256": "fc48a9fa49a4083eb203b0277a5f929e78085da712dc9c51851f187d3a6c08cb",
+      "bytes": 2578
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/model/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/model/model.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/model/model.py",
+      "sha256": "b209787ee718281eada772e6a49627b623d44cfddd1a963d8b7fd47d5363b7fc",
+      "bytes": 1239
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/rule_policy.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/rule_policy.py",
+      "sha256": "53746b8a8387da6c58ea76958b23ab48282f01d14dcadfaadc174d85c984f76a",
+      "bytes": 8259
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/self_test_rule_policy.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/self_test_rule_policy.py",
+      "sha256": "c8658ac36a0053bfb8b7c6b0a45fa48538097dab4c56c028f613fd3911dfd00f",
+      "bytes": 2525
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/workflow/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_diy/workflow/train_workflow.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_diy/workflow/train_workflow.py",
+      "sha256": "5d70348eff6da3ac809b002d5b40c5a025160ea8c0596b1824f14cf0cb96de1d",
+      "bytes": 3459
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/agent.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/agent.py",
+      "sha256": "52e8383b157ef14e5a0caba45699bf16960c2b4fc54fd4c4f1f7059a1b894e7b",
+      "bytes": 4671
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/algorithm/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/algorithm/algorithm.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/algorithm/algorithm.py",
+      "sha256": "bf0431f998e4d472dc43eca77baacd0a23e6965b5a364372f02dcab88490bc7b",
+      "bytes": 5996
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/conf/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/conf/conf.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/conf/conf.py",
+      "sha256": "17d47b947033a2cd60cb6ab49140bcf8fecf4bd1b79b9b5e8bca99ef3dfc8e0e",
+      "bytes": 1020
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/conf/monitor_builder.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/conf/monitor_builder.py",
+      "sha256": "9495152aa63fd7f9046267fa3c442d77e055fbeb4ecab79a26a0295d09e839ce",
+      "bytes": 2192
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/conf/train_env_conf.toml",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/conf/train_env_conf.toml",
+      "sha256": "5997c8e52f8dd26d26b299fec4b55dca3049baf1b8ee0d85412ea398b3332da0",
+      "bytes": 231
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/feature/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/feature/definition.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/feature/definition.py",
+      "sha256": "32871da07cb7c0780aa2d3190386a1ac0ddea9586c0b2143d6836f3369b8f643",
+      "bytes": 2047
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/feature/preprocessor.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/feature/preprocessor.py",
+      "sha256": "89392d6a22d876fc894d4984e2b7406240fed002db9134f20a116ba4062543c3",
+      "bytes": 14391
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/model/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/model/model.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/model/model.py",
+      "sha256": "87ef89e5ebcbcd6c4321743f7d02a32b543369c83c583730da00baa9943fe7a6",
+      "bytes": 1934
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/workflow/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/agent_ppo/workflow/train_workflow.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/agent_ppo/workflow/train_workflow.py",
+      "sha256": "1f845b62c4fabe6fedccf73d0abf427dc03d457e75a2cf4e73e05f3a9be3a066",
+      "bytes": 5885
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/conf/.gitignore",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/conf/.gitignore",
+      "sha256": "e3033586beb3406ed33427f01238322b2d121a7502ed6cc9279c9a23c3ae8eb0",
+      "bytes": 9
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/conf/__init__.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/conf/algo_conf_gorge_chase.toml",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/conf/algo_conf_gorge_chase.toml",
+      "sha256": "986eedc6b64343c08a0233ffd692a2455fb14536a95846d51b88ef5fd06caa69",
+      "bytes": 613
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/conf/app_conf_gorge_chase.toml",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/conf/app_conf_gorge_chase.toml",
+      "sha256": "7072214f8c9154b3a502dde5d1b2bd006c23c4e8000e4b2918ab01a50d5a9610",
+      "bytes": 211
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/conf/configure_app.toml",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/conf/configure_app.toml",
+      "sha256": "6bcc46777ebff0a5195f74c1c01b66d659f38ce57c178679923f4424b8224e99",
+      "bytes": 5258
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/kaiwu.json",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/kaiwu.json",
+      "sha256": "d223756fbd95dbc193a97bea8d52790edaa9e92ee001d02974c2a44dbb35dfa4",
+      "bytes": 83
+    },
+    {
+      "path": "archives/gorge_chase/diy_rules_20260410/train_test.py",
+      "source": "gorge_chase_diy_model_eval_ckptroot_20260410.zip",
+      "source_path": "ckpt/train_test.py",
+      "sha256": "5ea1075965104745d5c6587d579900b532edd6ff8449d28cd835375f7eb6b1bb",
+      "bytes": 1053
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/agent.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/agent.py",
+      "sha256": "ce6d95c06615a3b48cea2ac3bc14b97966f4d11eb58d361122c9a607ce5cb85b",
+      "bytes": 13572
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/algorithm/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/algorithm/algorithm.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/algorithm/algorithm.py",
+      "sha256": "a65a2d74289b5fb6f4c2c6e7bf9ff4cdd89f4a8444504252ebc98e12d3094128",
+      "bytes": 3405
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/conf/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/conf/conf.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/conf/conf.py",
+      "sha256": "21ace1eaa63256e25203c37f2ee7a898e990e3af82836e0e3df9dc6210b7893e",
+      "bytes": 9078
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/conf/monitor_builder.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/conf/monitor_builder.py",
+      "sha256": "ccc983c1ef13f6e5aca4449f41daab6dae3ca517f846881a19bc77da8f3214b3",
+      "bytes": 3171
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/conf/train_env_conf.toml",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/conf/train_env_conf.toml",
+      "sha256": "5418ed106f50026975496249d12512ef026eb205d69ca2f4a9c0ff1127969d0d",
+      "bytes": 2116
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/feature/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/feature/definition.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/feature/definition.py",
+      "sha256": "175610f0cf5bff2cc5fdff921234fab01d34eab79b4f71cce0d7b1e65e031974",
+      "bytes": 9831
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/feature/obs_builder.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/feature/obs_builder.py",
+      "sha256": "6466f92ecfd7a521d5652df9c340353036c742ceaf51a1488e8626ebb65f805f",
+      "bytes": 19806
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/feature/reward_manager.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/feature/reward_manager.py",
+      "sha256": "85002495c6810829243eb11292e3f184997e9ce9c7e719ae872bf8ea558ec9c0",
+      "bytes": 15738
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/feature/unpack_state_dict.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/feature/unpack_state_dict.py",
+      "sha256": "d8569268b5b1db817873735a7d5b859b3cca962930d3d20209d4608851b570ad",
+      "bytes": 28273
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/model/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/model/model.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/model/model.py",
+      "sha256": "3bc78d87b4ca355e6d3a881d41b3a6dbc5468d7a9fb829196bad8ab344fc3bb6",
+      "bytes": 29186
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/utils/_init_.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/utils/_init_.py",
+      "sha256": "1aed9dcb824271731fc482b74f70456b029a191ce19cb063bbcb504e949d3c71",
+      "bytes": 44
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/workflow/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/workflow/lineup_heros.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/workflow/lineup_heros.py",
+      "sha256": "807dffb58fee696290d1be081e70480d6c996cc0bf5e57b1190c270cc9829a66",
+      "bytes": 1764
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_diy/workflow/train_workflow.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_diy/workflow/train_workflow.py",
+      "sha256": "9604c187de7ac44783458198a5ead487f30b51cf21056758246874fa8fc7ba85",
+      "bytes": 13858
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/agent.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/agent.py",
+      "sha256": "cdc6702625cb1dd7d7b21601dfe2d59806e1dbf269f2417f6a7908a385da294f",
+      "bytes": 38854
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/algorithm/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/algorithm/algorithm.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/algorithm/algorithm.py",
+      "sha256": "a55fa95dd84f5f7e8ad79701c2c2c376e151212a3681d5ec0e47319f8600ebcc",
+      "bytes": 8151
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/conf/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/conf/conf.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/conf/conf.py",
+      "sha256": "60afd6e43c5fdd551ddbce99e41fafb3497206e3e1e24d66a3a7cb6b61a44467",
+      "bytes": 10141
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/conf/monitor_builder.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/conf/monitor_builder.py",
+      "sha256": "e1894df61d7d47742038b4ea600a7d2ecb800f0e5c597b243be3224ace00a269",
+      "bytes": 8862
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/conf/train_env_conf.toml",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/conf/train_env_conf.toml",
+      "sha256": "5b69d7004f7b4236f812aefbe8e7db4f2c2cc26a1a79ba3c93578044dd7b4f5c",
+      "bytes": 2114
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/definition.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/definition.py",
+      "sha256": "b7040a964aad7df6c361de06ab4532f8085acf87bc52a8d5eb1f31e1353fb8aa",
+      "bytes": 12952
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/feature_process/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/feature_process/__init__.py",
+      "sha256": "8e89d357681b3ba047a9390b6bb145971936457d9bb9d4194ff47bef88e214fd",
+      "bytes": 1318
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/feature_process/feature_normalizer.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/feature_process/feature_normalizer.py",
+      "sha256": "2006bb28f5ea5437df6114de396c158e0f0e13d84b592303b594f19a9db46b2b",
+      "bytes": 1731
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/feature_process/hero_feature_config.ini",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/feature_process/hero_feature_config.ini",
+      "sha256": "1612687e8236f293cdb50e3f67ea2160c72970ebb348360d4f12c2bdb393f534",
+      "bytes": 217
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/feature_process/hero_process.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/feature_process/hero_process.py",
+      "sha256": "bc211eca808b8066d9e59fdc26ff14fbeac20e7e1e991fd9e31159d4f2e40916",
+      "bytes": 4813
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/feature_process/hero_specific_feacures.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/feature_process/hero_specific_feacures.py",
+      "sha256": "bc910cc0bb834b254da7b5565c54cfade3e39be134bb48c98ddf3944d25fe1a5",
+      "bytes": 9316
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/feature_process/organ_feature_config.ini",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/feature_process/organ_feature_config.ini",
+      "sha256": "6cc1303655a709d1419dcd9c194b49e56c9a67ac99c57f23611bae86befc7b19",
+      "bytes": 505
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/feature_process/organ_process.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/feature_process/organ_process.py",
+      "sha256": "51bb61e6f5135a353d67b6d2813ed7bb60740d04fa10ac2d998e8feb1c967a8f",
+      "bytes": 7449
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/obs_builder.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/obs_builder.py",
+      "sha256": "5e44ecd8028cd35729d14c601ffc0edc8b06648ce8846f8c9e2a352c830221c4",
+      "bytes": 13271
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/reward_manager.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/reward_manager.py",
+      "sha256": "fe6a449cc4fc4a2047c1b81d7f5fb4a2c77de27475fa45ef593d5ef7fbd00183",
+      "bytes": 33469
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/reward_process.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/reward_process.py",
+      "sha256": "01e24efd8121943f6df9e23c3be0ffc2dfe724caab866a1d2d71cd292b8c45db",
+      "bytes": 7303
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/feature/unpack_state_dict.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/feature/unpack_state_dict.py",
+      "sha256": "281d20a238dee38163117e64522023c560c54ca196802ce67c87c8aae129a75e",
+      "bytes": 30896
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/model/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/model/model.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/model/model.py",
+      "sha256": "7eade528b86599c19817cf470207785b933bee25c62cc29f587aa1fe32f8f81d",
+      "bytes": 27932
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/utils/frame_dump.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/utils/frame_dump.py",
+      "sha256": "e0f9902b89dc47fcba4a3b788e89c08788daeda78193a7332993598fdc957623",
+      "bytes": 7183
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/workflow/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/agent_ppo/workflow/train_workflow.py",
+      "source": "区域赛提交版",
+      "source_path": "agent_ppo/workflow/train_workflow.py",
+      "sha256": "35c035b6064e9921e2da88565db32f84b4d1e2b323b5d96e740ca651d1f2de02",
+      "bytes": 22473
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/conf/__init__.py",
+      "source": "区域赛提交版",
+      "source_path": "conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/conf/algo_conf_hok1v1.toml",
+      "source": "区域赛提交版",
+      "source_path": "conf/algo_conf_hok1v1.toml",
+      "sha256": "986eedc6b64343c08a0233ffd692a2455fb14536a95846d51b88ef5fd06caa69",
+      "bytes": 613
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/conf/app_conf_hok1v1.toml",
+      "source": "区域赛提交版",
+      "source_path": "conf/app_conf_hok1v1.toml",
+      "sha256": "80c48bb08cd211557987d0a44413d9f04e874ab501a4fadefe166b88395ecd0d",
+      "bytes": 361
+    },
+    {
+      "path": "archives/hok1v1/regional_branch/conf/configure_app.toml",
+      "source": "区域赛提交版",
+      "source_path": "conf/configure_app.toml",
+      "sha256": "707f041c14ead61e78014884124e07144e4e31172e26789228cbc84b81eb9b24",
+      "bytes": 1092
+    },
+    {
+      "path": "archives/hok1v1/v2_checks/check_v2_initial_equivalence.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/debug/check_v2_initial_equivalence.py",
+      "sha256": "75178c6fa712e1eec0a8fc56174416ef888c3920b2acedadddce1a9ffd9eefbc",
+      "bytes": 2607
+    },
+    {
+      "path": "archives/hok1v1/v2_checks/check_v2_training_step.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/debug/check_v2_training_step.py",
+      "sha256": "3d65505e8ca6d9357c6f0beec16e5cfb3480e6a18fd70e5d4d32c3c1b2403b25",
+      "bytes": 2340
+    },
+    {
+      "path": "archives/hok1v1/v2_checks/compare_old_vs_v2.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/debug/compare_old_vs_v2.py",
+      "sha256": "f29b4517e5629cd5b5c7faa0d915a6e30a0b5ec69579c895675865905f178ccc",
+      "bytes": 1477
+    },
+    {
+      "path": "archives/hok1v1/v2_checks/run_v2_smoke.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/debug/run_v2_smoke.py",
+      "sha256": "f8a17a2f8c5214c56733d17d1a61a6a9da0ec69b9772cda07ff271d4205f987c",
+      "bytes": 15290
+    },
+    {
+      "path": "baselines/gorge_chase/.vscode/launch.json",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": ".vscode/launch.json",
+      "sha256": "02b8a7aebb2a62a3458f6ff3c2add3528eec4b10c8f6157cce2681805af7577d",
+      "bytes": 479
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/agent.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/agent.py",
+      "sha256": "69dfd735e40f04d3238694c7c5c85b89e630c004f63a7c091a889e2ba7580cdf",
+      "bytes": 2386
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/algorithm/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/algorithm/algorithm.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/algorithm/algorithm.py",
+      "sha256": "416ec3906e5a6e6f5f699838921f1da54d3b515ed6fe2ea9178226486a8485fd",
+      "bytes": 475
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/conf/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/conf/conf.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/conf/conf.py",
+      "sha256": "38b00b210617635c58cd2c36a30186b8cb9964ee9e0eaf0cfeced2108c25d27b",
+      "bytes": 944
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/conf/monitor_builder.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/conf/monitor_builder.py",
+      "sha256": "5e55f1406578a563c03a39267c38093b39e802a7ac40cf47e0a47814ebc9ddbf",
+      "bytes": 2095
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/conf/train_env_conf.toml",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/conf/train_env_conf.toml",
+      "sha256": "125dd3c16f11435c83c9cc0b85d0006a34ca06e3e65442dcfef022957b779142",
+      "bytes": 2370
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/feature/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/feature/definition.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/feature/definition.py",
+      "sha256": "888aaaaa09f509dd9536c97f3dc45d59697d0f18986f592f96319233a756650a",
+      "bytes": 1704
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/model/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/model/model.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/model/model.py",
+      "sha256": "70db184b77b94330ff7daec3b5fe5f723269b3db37585b73ff1ed9b73b58c554",
+      "bytes": 569
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/workflow/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_diy/workflow/train_workflow.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_diy/workflow/train_workflow.py",
+      "sha256": "97b82b0707177d6c143ec20017a7bfafa1e49864cae9fddfa47fa732c5008974",
+      "bytes": 1424
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/agent.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/agent.py",
+      "sha256": "51c37f0337ffbb92f89d8a437505d63c3e1b37771542f03635c4d5d1cef6c73f",
+      "bytes": 5820
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/algorithm/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/algorithm/algorithm.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/algorithm/algorithm.py",
+      "sha256": "bf0431f998e4d472dc43eca77baacd0a23e6965b5a364372f02dcab88490bc7b",
+      "bytes": 5996
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/conf/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/conf/conf.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/conf/conf.py",
+      "sha256": "c9e9ae46bd92e3b18bce4dcb5758d0dceb6d96e6a99e6a6f5db215b62d51fa5b",
+      "bytes": 981
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/conf/monitor_builder.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/conf/monitor_builder.py",
+      "sha256": "9495152aa63fd7f9046267fa3c442d77e055fbeb4ecab79a26a0295d09e839ce",
+      "bytes": 2192
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/conf/train_env_conf.toml",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/conf/train_env_conf.toml",
+      "sha256": "125dd3c16f11435c83c9cc0b85d0006a34ca06e3e65442dcfef022957b779142",
+      "bytes": 2370
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/feature/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/feature/definition.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/feature/definition.py",
+      "sha256": "32871da07cb7c0780aa2d3190386a1ac0ddea9586c0b2143d6836f3369b8f643",
+      "bytes": 2047
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/feature/preprocessor.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/feature/preprocessor.py",
+      "sha256": "50db6bd9300787cdd44b81142fa6f7423a8ca8d56c44bcdcf1c7da508fd2321b",
+      "bytes": 5527
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/model/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/model/model.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/model/model.py",
+      "sha256": "87ef89e5ebcbcd6c4321743f7d02a32b543369c83c583730da00baa9943fe7a6",
+      "bytes": 1934
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/workflow/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/agent_ppo/workflow/train_workflow.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "agent_ppo/workflow/train_workflow.py",
+      "sha256": "ba37b2ed2005a60a39901b71ed1070916d27504b1b3a5e33ce2c07c914772c27",
+      "bytes": 6847
+    },
+    {
+      "path": "baselines/gorge_chase/conf/.gitignore",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "conf/.gitignore",
+      "sha256": "e3033586beb3406ed33427f01238322b2d121a7502ed6cc9279c9a23c3ae8eb0",
+      "bytes": 9
+    },
+    {
+      "path": "baselines/gorge_chase/conf/__init__.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/gorge_chase/conf/algo_conf_gorge_chase.toml",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "conf/algo_conf_gorge_chase.toml",
+      "sha256": "986eedc6b64343c08a0233ffd692a2455fb14536a95846d51b88ef5fd06caa69",
+      "bytes": 613
+    },
+    {
+      "path": "baselines/gorge_chase/conf/app_conf_gorge_chase.toml",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "conf/app_conf_gorge_chase.toml",
+      "sha256": "8fc47f90b8a6216700014c7b0e882998b4474f6d7cb120385a1e9ac37accbdcb",
+      "bytes": 211
+    },
+    {
+      "path": "baselines/gorge_chase/conf/configure_app.toml",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "conf/configure_app.toml",
+      "sha256": "2fd72c52ab96c4036293893e62298fdfc8c55ee04281e630f17aeb3d44613098",
+      "bytes": 5259
+    },
+    {
+      "path": "baselines/gorge_chase/kaiwu.json",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "kaiwu.json",
+      "sha256": "d223756fbd95dbc193a97bea8d52790edaa9e92ee001d02974c2a44dbb35dfa4",
+      "bytes": 83
+    },
+    {
+      "path": "baselines/gorge_chase/train_test.py",
+      "source": "code-gorge_chase-public-15.0.1-comp-normal-lite.26comp.zip",
+      "source_path": "train_test.py",
+      "sha256": "2d8840cf6cba613304be3551e0f5c1ae1d8da5fbb4396920499e64e28985a305",
+      "bytes": 1047
+    },
+    {
+      "path": "baselines/hok1v1/.vscode/launch.json",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": ".vscode/launch.json",
+      "sha256": "02b8a7aebb2a62a3458f6ff3c2add3528eec4b10c8f6157cce2681805af7577d",
+      "bytes": 479
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/agent.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/agent.py",
+      "sha256": "acaa5768e31bcb3f64b43b92c709b171814de2f8e6f078527bfd6a6e4ef6bd1f",
+      "bytes": 5838
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/algorithm/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/algorithm/algorithm.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/algorithm/algorithm.py",
+      "sha256": "900c106a2a0654df3b57eb045d590c32076d020b42679ab5b8c816b2da778f15",
+      "bytes": 746
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/conf/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/conf/conf.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/conf/conf.py",
+      "sha256": "6f0c65bd9bbebd087accaf8ec125b99cd7358228b67457dc5378a2d487383bd2",
+      "bytes": 413
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/conf/monitor_builder.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/conf/monitor_builder.py",
+      "sha256": "adabb815e4b26a890803c0e739b4e15d2947b1837eb4e74298e37ce895395921",
+      "bytes": 1128
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/conf/train_env_conf.toml",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/conf/train_env_conf.toml",
+      "sha256": "5418ed106f50026975496249d12512ef026eb205d69ca2f4a9c0ff1127969d0d",
+      "bytes": 2116
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/feature/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/feature/definition.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/feature/definition.py",
+      "sha256": "49e06d8ef57bf632cd21d70ca9d31138341436486f42b021f19485435490ed32",
+      "bytes": 1731
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/model/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/model/model.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/model/model.py",
+      "sha256": "ac4cc34026937442e9293e4a8336dbd0394b4aec926155520a6b745b01670b02",
+      "bytes": 575
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/workflow/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_diy/workflow/train_workflow.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_diy/workflow/train_workflow.py",
+      "sha256": "96928bce643f18cb1ee75349a2acf0775f3c67defb417546e3126f1cebb45393",
+      "bytes": 1438
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/agent.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/agent.py",
+      "sha256": "ac4bbc84a675451cd42dd1c39fd1d10780651c29e2c8942e7a4ccfa59047fbfe",
+      "bytes": 13228
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/algorithm/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/algorithm/algorithm.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/algorithm/algorithm.py",
+      "sha256": "f672fc1053934337e2094f3f47ffefd2002c2686f292f622fd9f11488d090144",
+      "bytes": 3687
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/conf/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/conf/conf.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/conf/conf.py",
+      "sha256": "190b6494bc65e9f9c31ef527cb8a818eb4f53b11844a153c353351a4189d85a5",
+      "bytes": 2769
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/conf/monitor_builder.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/conf/monitor_builder.py",
+      "sha256": "7dceb6f74de67aaecef1bfd973fee2b4774396252c243b87cc2a26fcbc4a34e6",
+      "bytes": 2163
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/conf/train_env_conf.toml",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/conf/train_env_conf.toml",
+      "sha256": "5b69d7004f7b4236f812aefbe8e7db4f2c2cc26a1a79ba3c93578044dd7b4f5c",
+      "bytes": 2114
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/feature/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/feature/definition.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/feature/definition.py",
+      "sha256": "5860a73dbe6e47d4242609c63365b429a747dd534c9eef9eb63f936f6127dd74",
+      "bytes": 9873
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/feature/feature_process/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/feature/feature_process/__init__.py",
+      "sha256": "8e89d357681b3ba047a9390b6bb145971936457d9bb9d4194ff47bef88e214fd",
+      "bytes": 1318
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/feature/feature_process/feature_normalizer.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/feature/feature_process/feature_normalizer.py",
+      "sha256": "f5f5bb1c88779eef8206a270f8802394cda4c139988a4c53d51927a4fa045989",
+      "bytes": 1731
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/feature/feature_process/hero_feature_config.ini",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/feature/feature_process/hero_feature_config.ini",
+      "sha256": "1612687e8236f293cdb50e3f67ea2160c72970ebb348360d4f12c2bdb393f534",
+      "bytes": 217
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/feature/feature_process/hero_process.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/feature/feature_process/hero_process.py",
+      "sha256": "a6e84e2c42faf5342794bf4d928c42785557089ef2500dfe25533d34f094b21d",
+      "bytes": 4803
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/feature/feature_process/organ_feature_config.ini",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/feature/feature_process/organ_feature_config.ini",
+      "sha256": "6cc1303655a709d1419dcd9c194b49e56c9a67ac99c57f23611bae86befc7b19",
+      "bytes": 505
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/feature/feature_process/organ_process.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/feature/feature_process/organ_process.py",
+      "sha256": "1a56891b7bcd3569663b335de9cd26198a9eb032d1cf4fd51eca31f1338991ca",
+      "bytes": 7439
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/feature/reward_process.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/feature/reward_process.py",
+      "sha256": "f5fc4badb01c313675493cf06cf9491941f3affa41d3ec7cbd98e674c9feb035",
+      "bytes": 7243
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/model/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/model/model.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/model/model.py",
+      "sha256": "cf2d8b38846e1314c1ecb4363dab943217cf8c19bf1d18c3c13f9c8900741e46",
+      "bytes": 12020
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/workflow/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/agent_ppo/workflow/train_workflow.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "agent_ppo/workflow/train_workflow.py",
+      "sha256": "d08cee27d46462f3f938e80a98c1b8bc335028ce79513dbe4d348c327af6e76f",
+      "bytes": 14064
+    },
+    {
+      "path": "baselines/hok1v1/conf/__init__.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/hok1v1/conf/algo_conf_hok1v1.toml",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "conf/algo_conf_hok1v1.toml",
+      "sha256": "986eedc6b64343c08a0233ffd692a2455fb14536a95846d51b88ef5fd06caa69",
+      "bytes": 613
+    },
+    {
+      "path": "baselines/hok1v1/conf/app_conf_hok1v1.toml",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "conf/app_conf_hok1v1.toml",
+      "sha256": "80c48bb08cd211557987d0a44413d9f04e874ab501a4fadefe166b88395ecd0d",
+      "bytes": 361
+    },
+    {
+      "path": "baselines/hok1v1/conf/configure_app.toml",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "conf/configure_app.toml",
+      "sha256": "06d5099d3735885854e8319fbf957f110206cccd15b5cbf7bc6b22d6ac7a1298",
+      "bytes": 5270
+    },
+    {
+      "path": "baselines/hok1v1/kaiwu.json",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "kaiwu.json",
+      "sha256": "cbbe792f15ba466bac1ab148c946371a5fa82678558a670f6bb454a43f1e5649",
+      "bytes": 24
+    },
+    {
+      "path": "baselines/hok1v1/train_test.py",
+      "source": "区域赛提交版/_codex_tmp/baseline1_20260602_230412",
+      "source_path": "train_test.py",
+      "sha256": "298aded82e3271833db7f94b79c86d09a97d2214fc37539e1a93ecf9aa56c86b",
+      "bytes": 1024
+    },
+    {
+      "path": "docs/competition/regional-final-defense/slides/FedExing_区域赛决赛答辩_泛化版式稿.pptx",
+      "source": "区域赛提交版",
+      "source_path": "FedExing_答辩PPT_泛化版式统一版.pptx",
+      "sha256": "f73d9669297b756ff2f8904f9dfca6bfa4d8c3a137c0b421ef628fe453549a59",
+      "bytes": 38338031
+    },
+    {
+      "path": "docs/competition/regional-final-defense/slides/FedExing_区域赛决赛答辩_泛化配图稿.pptx",
+      "source": "区域赛提交版",
+      "source_path": "FedExing_答辩PPT_泛化配图优化版.pptx",
+      "sha256": "76235884f905afddd7d166952f10cc3a596bae5e48b90632ee41b17e03b9d256",
+      "bytes": 37536460,
+      "source_sha256": "8d429c94844e3480d97a537929c72f45cfd78019c875c7ed1bbf2ba595ff8306",
+      "source_bytes": 37536459,
+      "transformation": "Presenter name corrected from 郭弘毅 to 郭鸿毅 on presentation slides 1 and 23, per author confirmation."
+    },
+    {
+      "path": "docs/competition/regional-final-defense/slides/FedExing_区域赛决赛答辩_视觉优化稿.pptx",
+      "source": "区域赛提交版",
+      "source_path": "FedExing_答辩PPT_视觉优化版.pptx",
+      "sha256": "5d7f1e2408511378f34aef8b5d625adf64625f94315bcaccc72e6eed84861108",
+      "bytes": 1684854,
+      "source_sha256": "9ba77252ed428fb77242c01dced0922327ba65ea107c9ca490bb4623ae80a928",
+      "source_bytes": 1684854,
+      "transformation": "Presenter name corrected from 郭弘毅 to 郭鸿毅 on slides 1 and 22, per author confirmation."
+    },
+    {
+      "path": "docs/competition/regional-final-defense/slides/FedExing_区域赛决赛答辩_视觉优化第二稿.pptx",
+      "source": "区域赛提交版",
+      "source_path": "FedExing_答辩PPT_视觉优化版2.pptx",
+      "sha256": "6d651630bd1f469e4fcf3403d86a5e771e4994ffb1737cc250eabc0f4fe75482",
+      "bytes": 1841813,
+      "source_sha256": "7516fefd50f2dcf04618cfda4525b029e0328a2310495caecceb88a7520a904e",
+      "source_bytes": 1845548,
+      "transformation": "Presenter name corrected from 郭弘毅 to 郭鸿毅 on slides 1 and 22, per author confirmation."
+    },
+    {
+      "path": "docs/competition/regional-final-defense/slides/FedExing_区域赛决赛答辩_赛博风格变体A.pptx",
+      "source": "区域赛提交版",
+      "source_path": "FedExing_答辩PPT_泛化赛博统一版.pptx",
+      "sha256": "ab0c0755efbe2f633993885e52c181c0e7f8785bcde57d403363a8ab92a1e0c1",
+      "bytes": 38178675
+    },
+    {
+      "path": "docs/competition/regional-final-defense/slides/FedExing_区域赛决赛答辩_赛博风格变体B.pptx",
+      "source": "区域赛提交版",
+      "source_path": "FedExing_答辩PPT_泛化赛博统一版333.pptx",
+      "sha256": "2bbdda3090ed6f83742bf61503c3cd5a51a8739c7a0e27a801116deb6909ad52",
+      "bytes": 37373279
+    },
+    {
+      "path": "docs/competition/regional-final-defense/speeches/区域赛决赛答辩_赛题与展望_修改稿.docx",
+      "source": "区域赛提交版",
+      "source_path": "revised_speech_ppt_444.docx",
+      "sha256": "0a47a4e94ea292013a8da2b5e8f5cef91f66f411aa3abfb29130464a920f79a0",
+      "bytes": 11415
+    },
+    {
+      "path": "docs/competition/regional-final-defense/speeches/区域赛决赛答辩_赛题与展望_压缩稿.docx",
+      "source": "区域赛提交版",
+      "source_path": "revised_speech_ppt_444_compressed.docx",
+      "sha256": "4bfb97326cf589f010776155901084a5c3e19f5eaaff78d8e1b6558759d7b6c9",
+      "bytes": 10878
+    },
+    {
+      "path": "docs/competition/regional-final-defense/speeches/区域赛决赛答辩_赛题与展望_图片整理稿.docx",
+      "source": "区域赛提交版",
+      "source_path": "speech_saiti_weilai_from_image.docx",
+      "sha256": "2ff535df89a6b4fbb0f9d91042f4db03d2a170091a532191e38548f08b04f3c5",
+      "bytes": 10740
+    },
+    {
+      "path": "docs/competition/regional-technical-notes/区域赛_特征与规则_复盘稿.md",
+      "source": "区域赛提交版",
+      "source_path": "第五节_特征与规则_郭_复盘版.md",
+      "sha256": "3ad2020620e47b1a0af86b248c792cc9420df96644c92104c434b6386a3bb5f9",
+      "bytes": 11986
+    },
+    {
+      "path": "docs/competition/regional-technical-notes/区域赛_特征与规则_终稿.md",
+      "source": "区域赛提交版",
+      "source_path": "第五节_特征与规则_郭_终稿版.md",
+      "sha256": "70bd569e370fc171be770056d53f403f217334b14366383db8463359c45db374",
+      "bytes": 10470
+    },
+    {
+      "path": "docs/competition/regional-technical-notes/区域赛_特征与规则_草稿.md",
+      "source": "区域赛提交版",
+      "source_path": "第五节_特征与规则_郭_草稿.md",
+      "sha256": "f16287de19e672eeb6b7953a0a0f6c952cdd37b3c64545d781f3e779d1a57d25",
+      "bytes": 10715
+    },
+    {
+      "path": "projects/gorge_chase/.vscode/launch.json",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/.vscode/launch.json",
+      "sha256": "02b8a7aebb2a62a3458f6ff3c2add3528eec4b10c8f6157cce2681805af7577d",
+      "bytes": 479
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/agent.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/agent.py",
+      "sha256": "69dfd735e40f04d3238694c7c5c85b89e630c004f63a7c091a889e2ba7580cdf",
+      "bytes": 2386
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/algorithm/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/algorithm/algorithm.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/algorithm/algorithm.py",
+      "sha256": "416ec3906e5a6e6f5f699838921f1da54d3b515ed6fe2ea9178226486a8485fd",
+      "bytes": 475
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/conf/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/conf/conf.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/conf/conf.py",
+      "sha256": "38b00b210617635c58cd2c36a30186b8cb9964ee9e0eaf0cfeced2108c25d27b",
+      "bytes": 944
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/conf/monitor_builder.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/conf/monitor_builder.py",
+      "sha256": "5e55f1406578a563c03a39267c38093b39e802a7ac40cf47e0a47814ebc9ddbf",
+      "bytes": 2095
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/conf/train_env_conf.toml",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/conf/train_env_conf.toml",
+      "sha256": "125dd3c16f11435c83c9cc0b85d0006a34ca06e3e65442dcfef022957b779142",
+      "bytes": 2370
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/feature/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/feature/definition.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/feature/definition.py",
+      "sha256": "888aaaaa09f509dd9536c97f3dc45d59697d0f18986f592f96319233a756650a",
+      "bytes": 1704
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/model/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/model/model.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/model/model.py",
+      "sha256": "70db184b77b94330ff7daec3b5fe5f723269b3db37585b73ff1ed9b73b58c554",
+      "bytes": 569
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/workflow/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_diy/workflow/train_workflow.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_diy/workflow/train_workflow.py",
+      "sha256": "97b82b0707177d6c143ec20017a7bfafa1e49864cae9fddfa47fa732c5008974",
+      "bytes": 1424
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/agent.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/agent.py",
+      "sha256": "51c37f0337ffbb92f89d8a437505d63c3e1b37771542f03635c4d5d1cef6c73f",
+      "bytes": 5820
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/algorithm/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/algorithm/algorithm.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/algorithm/algorithm.py",
+      "sha256": "7c6ab6b4d0d48e2c3e8cc6aec5c0943fe0a542304d7117cda9e6051ad4788bfa",
+      "bytes": 8216
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/conf/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/conf/conf.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/conf/conf.py",
+      "sha256": "7d48eb4c3bc62a9790d7c7c0f094b7626eafcf1a537bdaa8b0833324a805250e",
+      "bytes": 1393
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/conf/monitor_builder.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/conf/monitor_builder.py",
+      "sha256": "5ce58eddd1d7f5625545ed217e8802b44c0203852dc7a3a49cdb639eb6e3287c",
+      "bytes": 11197
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/conf/train_env_conf.toml",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/conf/train_env_conf.toml",
+      "sha256": "b44ef4610abc1de1d7992bc16634842b37e9d2134f2f2348c26078415b389938",
+      "bytes": 207
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/feature/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/feature/definition.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/feature/definition.py",
+      "sha256": "32871da07cb7c0780aa2d3190386a1ac0ddea9586c0b2143d6836f3369b8f643",
+      "bytes": 2047
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/feature/preprocessor.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/feature/preprocessor.py",
+      "sha256": "4e7a17d540d980048593eca6b20998c5c0ad90b78c30183dff357e6c6eb73e1a",
+      "bytes": 60238
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/model/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/model/model.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/model/model.py",
+      "sha256": "35d2452814ce5be5f95fb902d4d96708026c22d6491f983eed08e619153bdd09",
+      "bytes": 3047
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/workflow/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/agent_ppo/workflow/train_workflow.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/agent_ppo/workflow/train_workflow.py",
+      "sha256": "111042b13e78ee59b3f4c290f71e1a9464e6d80f296cf87caef88fde5799e7da",
+      "bytes": 16169
+    },
+    {
+      "path": "projects/gorge_chase/conf/.gitignore",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/conf/.gitignore",
+      "sha256": "e3033586beb3406ed33427f01238322b2d121a7502ed6cc9279c9a23c3ae8eb0",
+      "bytes": 9
+    },
+    {
+      "path": "projects/gorge_chase/conf/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/gorge_chase/conf/algo_conf_gorge_chase.toml",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/conf/algo_conf_gorge_chase.toml",
+      "sha256": "986eedc6b64343c08a0233ffd692a2455fb14536a95846d51b88ef5fd06caa69",
+      "bytes": 613
+    },
+    {
+      "path": "projects/gorge_chase/conf/app_conf_gorge_chase.toml",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/conf/app_conf_gorge_chase.toml",
+      "sha256": "8fc47f90b8a6216700014c7b0e882998b4474f6d7cb120385a1e9ac37accbdcb",
+      "bytes": 211
+    },
+    {
+      "path": "projects/gorge_chase/conf/configure_app.toml",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/conf/configure_app.toml",
+      "sha256": "3312b45e5f7047a3b60cdda11e265c9675eea3dd6b559a5a3128575069ff8f7a",
+      "bytes": 5272
+    },
+    {
+      "path": "projects/gorge_chase/kaiwu.json",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/kaiwu.json",
+      "sha256": "d223756fbd95dbc193a97bea8d52790edaa9e92ee001d02974c2a44dbb35dfa4",
+      "bytes": 83
+    },
+    {
+      "path": "projects/gorge_chase/train_test.py",
+      "source": "代码.zip",
+      "source_path": "代码/初赛代码/kaiwu3cc - 副本flash优化(1)/kaiwu3cc - 副本/code/train_test.py",
+      "sha256": "2d8840cf6cba613304be3551e0f5c1ae1d8da5fbb4396920499e64e28985a305",
+      "bytes": 1047
+    },
+    {
+      "path": "projects/hok1v1/.gitignore",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/.gitignore",
+      "sha256": "46e910539ce9c925339034c060c40a7c3507aae9467126bed3bea330e95f6393",
+      "bytes": 266
+    },
+    {
+      "path": "projects/hok1v1/.vscode/launch.json",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/.vscode/launch.json",
+      "sha256": "02b8a7aebb2a62a3458f6ff3c2add3528eec4b10c8f6157cce2681805af7577d",
+      "bytes": 479
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/agent.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/agent.py",
+      "sha256": "ce6d95c06615a3b48cea2ac3bc14b97966f4d11eb58d361122c9a607ce5cb85b",
+      "bytes": 13572
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/algorithm/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/algorithm/algorithm.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/algorithm/algorithm.py",
+      "sha256": "a65a2d74289b5fb6f4c2c6e7bf9ff4cdd89f4a8444504252ebc98e12d3094128",
+      "bytes": 3405
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/conf/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/conf/conf.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/conf/conf.py",
+      "sha256": "21ace1eaa63256e25203c37f2ee7a898e990e3af82836e0e3df9dc6210b7893e",
+      "bytes": 9078
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/conf/monitor_builder.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/conf/monitor_builder.py",
+      "sha256": "ccc983c1ef13f6e5aca4449f41daab6dae3ca517f846881a19bc77da8f3214b3",
+      "bytes": 3171
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/conf/train_env_conf.toml",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/conf/train_env_conf.toml",
+      "sha256": "5418ed106f50026975496249d12512ef026eb205d69ca2f4a9c0ff1127969d0d",
+      "bytes": 2116
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/feature/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/feature/definition.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/feature/definition.py",
+      "sha256": "175610f0cf5bff2cc5fdff921234fab01d34eab79b4f71cce0d7b1e65e031974",
+      "bytes": 9831
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/feature/obs_builder.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/feature/obs_builder.py",
+      "sha256": "6466f92ecfd7a521d5652df9c340353036c742ceaf51a1488e8626ebb65f805f",
+      "bytes": 19806
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/feature/reward_manager.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/feature/reward_manager.py",
+      "sha256": "85002495c6810829243eb11292e3f184997e9ce9c7e719ae872bf8ea558ec9c0",
+      "bytes": 15738
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/feature/unpack_state_dict.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/feature/unpack_state_dict.py",
+      "sha256": "d8569268b5b1db817873735a7d5b859b3cca962930d3d20209d4608851b570ad",
+      "bytes": 28273
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/model/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/model/model.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/model/model.py",
+      "sha256": "3bc78d87b4ca355e6d3a881d41b3a6dbc5468d7a9fb829196bad8ab344fc3bb6",
+      "bytes": 29186
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/utils/_init_.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/utils/_init_.py",
+      "sha256": "1aed9dcb824271731fc482b74f70456b029a191ce19cb063bbcb504e949d3c71",
+      "bytes": 44
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/workflow/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/workflow/lineup_heros.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/workflow/lineup_heros.py",
+      "sha256": "807dffb58fee696290d1be081e70480d6c996cc0bf5e57b1190c270cc9829a66",
+      "bytes": 1764
+    },
+    {
+      "path": "projects/hok1v1/agent_diy/workflow/train_workflow.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_diy/workflow/train_workflow.py",
+      "sha256": "9604c187de7ac44783458198a5ead487f30b51cf21056758246874fa8fc7ba85",
+      "bytes": 13858
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/agent.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/agent.py",
+      "sha256": "cdc6702625cb1dd7d7b21601dfe2d59806e1dbf269f2417f6a7908a385da294f",
+      "bytes": 38854
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/algorithm/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/algorithm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/algorithm/algorithm.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/algorithm/algorithm.py",
+      "sha256": "c0685987c2227b8db094aa286e717abe37ad98d0743016fd5888c245fb2f6ad7",
+      "bytes": 8123
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/conf/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/conf/conf.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/conf/conf.py",
+      "sha256": "711d951311ead2713f8f4a751a4b702a9c57dbfee5c73b5107cea06d38b4193c",
+      "bytes": 10619
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/conf/monitor_builder.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/conf/monitor_builder.py",
+      "sha256": "75be58b3309d4f1c57c350ea4bc8db6855616c16651cd5f7791a1197ae0ca0d9",
+      "bytes": 8774
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/conf/train_env_conf.toml",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/conf/train_env_conf.toml",
+      "sha256": "5b69d7004f7b4236f812aefbe8e7db4f2c2cc26a1a79ba3c93578044dd7b4f5c",
+      "bytes": 2114
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/definition.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/definition.py",
+      "sha256": "b7040a964aad7df6c361de06ab4532f8085acf87bc52a8d5eb1f31e1353fb8aa",
+      "bytes": 12952
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/feature_process/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/feature_process/__init__.py",
+      "sha256": "8e89d357681b3ba047a9390b6bb145971936457d9bb9d4194ff47bef88e214fd",
+      "bytes": 1318
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/feature_process/feature_normalizer.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/feature_process/feature_normalizer.py",
+      "sha256": "2006bb28f5ea5437df6114de396c158e0f0e13d84b592303b594f19a9db46b2b",
+      "bytes": 1731
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/feature_process/hero_feature_config.ini",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/feature_process/hero_feature_config.ini",
+      "sha256": "1612687e8236f293cdb50e3f67ea2160c72970ebb348360d4f12c2bdb393f534",
+      "bytes": 217
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/feature_process/hero_process.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/feature_process/hero_process.py",
+      "sha256": "bc211eca808b8066d9e59fdc26ff14fbeac20e7e1e991fd9e31159d4f2e40916",
+      "bytes": 4813
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/feature_process/hero_specific_feacures.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/feature_process/hero_specific_feacures.py",
+      "sha256": "bc910cc0bb834b254da7b5565c54cfade3e39be134bb48c98ddf3944d25fe1a5",
+      "bytes": 9316
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/feature_process/organ_feature_config.ini",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/feature_process/organ_feature_config.ini",
+      "sha256": "6cc1303655a709d1419dcd9c194b49e56c9a67ac99c57f23611bae86befc7b19",
+      "bytes": 505
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/feature_process/organ_process.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/feature_process/organ_process.py",
+      "sha256": "51bb61e6f5135a353d67b6d2813ed7bb60740d04fa10ac2d998e8feb1c967a8f",
+      "bytes": 7449
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/obs_builder.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/obs_builder.py",
+      "sha256": "f15a67d2c6b823f9f614aa0e1467581648894ddea903e5e938125024f468cf18",
+      "bytes": 13258
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/reward_manager.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/reward_manager.py",
+      "sha256": "425114f7e8ad9eaffce27e32ae3facec886e90782fa39b0b963fd7397da3b5ef",
+      "bytes": 40120
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/reward_process.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/reward_process.py",
+      "sha256": "01e24efd8121943f6df9e23c3be0ffc2dfe724caab866a1d2d71cd292b8c45db",
+      "bytes": 7303
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/feature/unpack_state_dict.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/feature/unpack_state_dict.py",
+      "sha256": "772255f1a554f75d5276473a56dcc142b7ed548140f87e1c215c34b055de7424",
+      "bytes": 30860
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/model/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/model/model.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/model/model.py",
+      "sha256": "7eade528b86599c19817cf470207785b933bee25c62cc29f587aa1fe32f8f81d",
+      "bytes": 27932
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/utils/frame_dump.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/utils/frame_dump.py",
+      "sha256": "5496961708bb6c3c31842d526aa64264f944064333f4aae89a509ee2f552384b",
+      "bytes": 7176
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/workflow/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/workflow/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/agent_ppo/workflow/train_workflow.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/agent_ppo/workflow/train_workflow.py",
+      "sha256": "35c035b6064e9921e2da88565db32f84b4d1e2b323b5d96e740ca651d1f2de02",
+      "bytes": 22473
+    },
+    {
+      "path": "projects/hok1v1/conf/__init__.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/conf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "projects/hok1v1/conf/algo_conf_hok1v1.toml",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/conf/algo_conf_hok1v1.toml",
+      "sha256": "986eedc6b64343c08a0233ffd692a2455fb14536a95846d51b88ef5fd06caa69",
+      "bytes": 613
+    },
+    {
+      "path": "projects/hok1v1/conf/app_conf_hok1v1.toml",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/conf/app_conf_hok1v1.toml",
+      "sha256": "80c48bb08cd211557987d0a44413d9f04e874ab501a4fadefe166b88395ecd0d",
+      "bytes": 361
+    },
+    {
+      "path": "projects/hok1v1/conf/configure_app.toml",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/conf/configure_app.toml",
+      "sha256": "4c4c2b0d30a94cfa08640933e2d40fb06b932dc432e1d2b8eb9857ba4b8b6bc5",
+      "bytes": 1016
+    },
+    {
+      "path": "projects/hok1v1/kaiwu.json",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/kaiwu.json",
+      "sha256": "46b3d35f003666c8626f0efefd3f4a446086727f1a2cad99f8904f36a186103e",
+      "bytes": 30
+    },
+    {
+      "path": "projects/hok1v1/train_test.py",
+      "source": "代码.zip",
+      "source_path": "代码/复赛代码/train_test.py",
+      "sha256": "70af7bd40bf87fb430fa117396b1d256db28ac6d456ebd7a949e96572d9efe1d",
+      "bytes": 2122
+    }
+  ],
+  "excluded_categories": [
+    "Python caches",
+    "model weights",
+    "IDE personal settings",
+    "ABS client",
+    "presentation and meeting materials",
+    "unrelated rule-v5 archive"
+  ]
+}

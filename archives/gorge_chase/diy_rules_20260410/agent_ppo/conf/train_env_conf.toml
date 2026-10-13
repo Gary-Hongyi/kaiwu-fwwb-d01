@@ -1,0 +1,13 @@
+[env_conf]
+# Easier starting curriculum for local training.
+map = [1, 2, 3]
+map_random = true
+
+treasure_count = 6
+buff_count = 1
+buff_cooldown = 150
+
+talent_cooldown = 100
+monster_interval = 450
+monster_speedup = 700
+max_step = 700

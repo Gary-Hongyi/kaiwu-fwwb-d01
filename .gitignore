@@ -1,0 +1,47 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Training products and model binaries
+ckpt/
+checkpoints/
+*.pkl
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.onnx
+*.log
+*.jsonl
+logs/
+runs/
+wandb/
+outputs/
+
+# Client binaries, archives and machine-specific files
+ABS/
+*.exe
+*.dll
+*.so
+*.lib
+*.exp
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+.idea/
+.DS_Store
+__MACOSX/
+._*
+Thumbs.db
+desktop.ini
+.qa-docx/

@@ -1,0 +1,26 @@
+[app]
+
+replay_buffer_capacity = 2048
+preload_ratio = 0.2
+preload_model_dir = "/data/pre_model/ckpt"
+preload_model_id = 276912
+preload_model = true
+reverb_remover = "reverb.selectors.Fifo"
+reverb_sampler = "reverb.selectors.Uniform"
+reverb_rate_limiter = "SampleToInsertRatio"
+reverb_samples_per_insert = 2
+reverb_error_buffer = 8
+# 4x for late-stage stability (was 256). Must stay <= replay_buffer_capacity.
+# 后期稳定，4 倍（原 256）；不能超过 replay_buffer_capacity。
+train_batch_size = 1024
+# Checkpoint every 400 steps (was 200): wider history span, but the actor's
+# "latest" can lag up to ~400 steps (slightly more off-policy).
+# 每 400 步存一次（原 200）：历史跨度更宽，但 actor 的 latest 最多滞后 ~400 步。
+dump_model_freq = 400
+model_file_sync_per_minutes = 1
+# Retain 50 checkpoints (was 20). With dump_model_freq=400 -> ~20k-step history
+# pool for self-play opponents (was ~4k). 保留 50 个（原 20）→ 历史池约 2 万步。
+modelpool_max_save_model_count = 50
+
+eval_model_dir = "/data/projects/hok1v1/ckpt"
+eval_model_id = "292449"
